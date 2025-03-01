@@ -1,10 +1,13 @@
 import Image from "next/image";
 import { NavVercel } from "./components/NavVercel";
 import { IoTriangleSharp} from "react-icons/io5";
-import { GitMergeIcon ,Globe02Icon,NotificationBubbleIcon,ChartLineData01Icon,ReplayIcon,Book01Icon,OfficeIcon,Shield02Icon, CircleArrowDown02Icon, ArrowLeft02Icon, CircleArrowUp02Icon} from "hugeicons-react";
-import { FaCircleNotch,FaArrowsRotate  } from "react-icons/fa6";
+import { GitMergeIcon ,Globe02Icon,NotificationBubbleIcon,ChartLineData01Icon,ReplayIcon,Book01Icon,OfficeIcon,Shield02Icon,Menu03Icon, CircleArrowUp02Icon} from "hugeicons-react";
+import { FaCircleNotch,FaArrowsRotate,FaXTwitter} from "react-icons/fa6";
 import { Terminal, TerminalIcon } from "lucide-react";
 import { Charts } from "./components/charts";
+import { SiGithub,SiLinkedin,SiYoutube  } from "react-icons/si";
+
+
 
 
 
@@ -32,6 +35,9 @@ export default function Home() {
           <button className="rounded-md  hover:dark:bg-stone-900  ">Log in</button>
           <button className="rounded-md  hover:dark:bg-stone-900  ">Contact</button>
           <button className="rounded-md  bg-slate-950 dark:bg-stone-100 dark:text-black text-white hover:dark:bg-gray-200">Sign up</button>
+        </div>
+        <div className="flex items-center justify-center">
+       <Menu03Icon className="lg:hidden flex size-8"/>
         </div>
     </nav>
     {/* Homepage */}
@@ -270,11 +276,11 @@ export default function Home() {
         </div>
         <div className="space-y-4 ">
         <h1 className="text-sm font-semibold">Social</h1>
-        <ul className="*:text-stone-400 space-y-3 *:text-sm *:font-normal  *:hover:text-white">
-          <li>GitHub</li>
-          <li>LinkedIn</li>
-          <li>Twitter</li>
-          <li>YouTube</li>
+        <ul className="*:text-stone-400 space-y-3 *:text-sm *:font-normal *:flex *:items-baseline  *:hover:text-white">
+          <li><span className="pr-2"><SiGithub className="size-3"/></span>GitHub</li>
+          <li><span className="pr-2"><SiLinkedin className="size-3"/></span>LinkedIn</li>
+          <li><span className="pr-2"><FaXTwitter className="size-3"/></span>Twitter</li>
+          <li><span className="pr-2"><SiYoutube className="size-3"/></span>YouTube</li>
         </ul>
         </div>
       </div>
