@@ -36,7 +36,7 @@ export default function Home() {
           <button className="rounded-md  hover:dark:bg-stone-900  ">Contact</button>
           <button className="rounded-md  bg-slate-950 dark:bg-stone-100 dark:text-black text-white hover:dark:bg-gray-200">Sign up</button>
         </div>
-        <div className="flex items-center justify-center">
+        <div className="flex items-center  lg:hidden justify-center">
        <Menu03Icon className="lg:hidden flex size-8"/>
         </div>
     </nav>
