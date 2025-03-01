@@ -63,7 +63,7 @@ export default function Home() {
        <div className="border-1 border-t-0 border-b-0 border-slate-50/10 py-2">
       </div>
        {/* container 2  */}
-       <div className="grid grid-row-1 md:grid-cols-2  md:divide-x divide-y divide-slate-50/10 border-1 border-slate-50/10 ">
+       <div className="grid grid-row-1 md:grid-cols-2  md:divide-x md:divide-y-0  divide-y divide-slate-50/10 border-1 border-slate-50/10 ">
        {/* First Column */}
        <div className="flex flex-col space-y-3 p-10 select-none">
         <h1 className="text-stone-400 text-lg items-center flex"><span className="pr-2"><TerminalIcon className="size-6"/></span>Git-connected Deploys</h1>
@@ -72,7 +72,6 @@ export default function Home() {
         <h1 className="text-stone-400 text-2xl font-medium">Deploy from Git or from your Cli</h1>
         </div>
         <div className="relative">
-          
           <div className="p-2 relative ring-1 ring-gray-50/10  rounded-md max-w-xs ">
           <div >
             <div className="space-x-1">
@@ -111,7 +110,7 @@ export default function Home() {
        </div>
        </div>
        {/* Container  3 */}
-      <div className=" border-1 border-slate-50/10  border-t-0  p-10">
+      <div className=" border-1 border-slate-50/10  border-t-0 border-b-0  p-10">
       {/* First Column */}
         <div className="flex flex-col space-y-3 relative">
         <h1 className="text-stone-400 text-lg items-center flex"><span className="pr-2"><ChartLineData01Icon className="size-5"/></span>Front-end Observability</h1>
@@ -123,7 +122,7 @@ export default function Home() {
        <Charts/>
        </div>
        {/* Container 4 */}
-       <div className="grid grid-row-1 md:grid-cols-2 select-none md:divide-x divide-y divide-slate-50/10 border-1 border-b-0 border-slate-50/10 ">
+       <div className="grid grid-row-1 md:grid-cols-2 select-none md:divide-x md:divide-y-0 divide-y divide-slate-50/10 border-1 border-b-0 border-slate-50/10 ">
        {/* First Column */}
        <div className="flex flex-col space-y-4 p-10">
         <h1 className="text-stone-400 text-lg items-center flex "><span className="pr-2"><ReplayIcon className="size-5"/></span>Instant Rollbacks
