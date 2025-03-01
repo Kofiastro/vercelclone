@@ -18,17 +18,17 @@ export default function Home() {
       <div className="flex space-x-8">
       {/* darkmode */}
         <Image
-      src="./vercelDark.svg"
-      className=""
-      width={100}
-      height={18}
-      alt="Vercel logon"
+      src="/VercelDark.png"
+      className="p-4"
+      width={150}
+      height={10}
+      alt="Vercel logo"
     />
       
    <NavVercel/>
    {/* Buttons section */}
      </div>
-        <div className="space-x-3 hidden md:flex *:lg:p-4 *:lg:py-1.5 *:text-sm *:font-medium *:border-1 *:border-slate-50/10">
+        <div className="space-x-4 hidden my-2 md:flex *:lg:px-6  *:text-sm *:border-1 *:border-slate-50/10">
           <button className="rounded-md  hover:dark:bg-stone-900  ">Log in</button>
           <button className="rounded-md  hover:dark:bg-stone-900  ">Contact</button>
           <button className="rounded-md  bg-slate-950 dark:bg-stone-100 dark:text-black text-white hover:dark:bg-gray-200">Sign up</button>
@@ -38,9 +38,9 @@ export default function Home() {
     <main className="mt-24 mx-5 lg:mx-56">
       <div className=" bg-linear-[190deg,black_50%,orange_70%,cyan_80%,teal] flex flex-col text-center items-center justify-center  px-20 py-48 border-1 border-slate-50/10 space-y-7 ">
             <h1 className="text-3xl lg:text-5xl font-semibold">Your complete platform for the web.</h1>
-        <p className="text-lg lg:text-xl text-stone-400 font-normal max-w-xl">Vercel provides the developer tools and cloud infrastructure to build, scale, and secure a faster, more personalized web.</p>
-        <div className="*:text-sm *:lg:text-md *:rounded-full flex space-x-8 *:font-medium">
-          <button className="bg-white px-3 py-2 lg:px-4 lg:py-3 text-black flex hover:bg-gray-300 items-center"><span className="px-2"><IoTriangleSharp/></span>Start Deploying</button>
+        <p className="text-base lg:text-xl text-stone-400 font-normal max-w-xl">Vercel provides the developer tools and cloud infrastructure to build, scale, and secure a faster, more personalized web.</p>
+        <div className="*:text-xs *:lg:text-md *:rounded-full flex space-x-8 *:font-medium">
+          <button className="bg-white px-3 py-2 lg:px-4 lg:py-3 text-black flex hover:bg-gray-300   items-center"><span className="px-2"><IoTriangleSharp/></span>Start Deploying</button>
           <button className="bg-black text-white border-1 border-1-stone-50/10 hover:bg-stone-900 px-5 py-3 lg:px-10 lg:py-3 ">Get a demo</button>
         </div>
       </div>
