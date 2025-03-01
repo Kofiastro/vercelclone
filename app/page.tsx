@@ -18,24 +18,17 @@ export default function Home() {
       <div className="flex space-x-8">
       {/* darkmode */}
         <Image
-      src="/vercelDark.svg"
-      className="flex light:hidden"
+      src="./vercelDark.svg"
+      className=""
       width={100}
       height={18}
       alt="Vercel logon"
     />
-      {/* LightMode */}
-        <Image
-      src="/vercel.svg"
-      className="dark:hidden"
-      width={50}
-      height={18}
-      alt="Vercel logon"
-    />
+      
    <NavVercel/>
    {/* Buttons section */}
      </div>
-        <div className="space-x-3 *:lg:p-4 *:lg:py-1.5 *:text-sm *:font-medium *:border-1 *:border-slate-50/10">
+        <div className="space-x-3 hidden md:flex *:lg:p-4 *:lg:py-1.5 *:text-sm *:font-medium *:border-1 *:border-slate-50/10">
           <button className="rounded-md  hover:dark:bg-stone-900  ">Log in</button>
           <button className="rounded-md  hover:dark:bg-stone-900  ">Contact</button>
           <button className="rounded-md  bg-slate-950 dark:bg-stone-100 dark:text-black text-white hover:dark:bg-gray-200">Sign up</button>
@@ -117,8 +110,8 @@ export default function Home() {
         <div className="flex flex-col space-y-3 relative">
         <h1 className="text-stone-400 text-lg items-center flex"><span className="pr-2"><ChartLineData01Icon className="size-5"/></span>Front-end Observability</h1>
         <div className="flex flex-col">
-        <h1 className="text-2xl font-medium">Privacy-friendly,lightweight Analytics.</h1> 
-        <h1 className="text-stone-400 text-2xl font-medium w-150">Upgrade your post-launch workflow with actionable, real insights.</h1>
+        <h1 className=" text-2xl font-medium">Privacy-friendly,lightweight Analytics.</h1> 
+        <h1 className="text-stone-400 text-2xl font-medium md:w-150">Upgrade your post-launch workflow with actionable, real insights.</h1>
         </div>
        </div>
        <Charts/>
@@ -174,18 +167,18 @@ export default function Home() {
          <div className="p-3 space-y-3">
           <h1>Conformance</h1>
             <div className="ring-1 ring-gray-50/10 rounded-md p-6 max-w-sm bg-slate-50/5 flex items-center justify-between">
-            <h1 className="text-sm">Excellent</h1>
-            <FaCircleNotch className="size-6 text-emerald-400"/>
+            <h1 className=" text-xs md:text-sm">Excellent</h1>
+            <FaCircleNotch className=" size-4 md:size-6 text-emerald-400"/>
             <h1 className="text-sm ">9.4</h1>
              </div>
-            <div className="ring-1 ring-gray-50/10 rounded-md  text-sm p-6 max-w-sm  bg-slate-50/5">Total Issues</div>
-            <div className="ring-1 ring-gray-50/10 rounded-md text-sm p-6 max-w-sm  bg-slate-50/5">Major Issues</div>
+            <div className="ring-1 ring-gray-50/10 rounded-md  md:text-sm p-6 max-w-sm text-xs  bg-slate-50/5">Total Issues</div>
+            <div className="ring-1 ring-gray-50/10 rounded-md md:text-sm p-6 max-w-sm  text-xs bg-slate-50/5">Major Issues</div>
          </div>
          <div className="p-3 space-y-3">
           <h1>Code Owners</h1>
-            <div className="ring-1 ring-gray-50/10 rounded-md p-6 max-w-sm text-sm bg-slate-50/5">Vercel/design</div>
-            <div className="ring-1 ring-gray-50/10 rounded-md p-6 max-w-sm text-sm bg-slate-50/5">Vercel/eng</div>
-            <div className="ring-1 ring-gray-50/10 rounded-md p-6 max-w-sm text-sm bg-slate-50/5">Vercel/marketing</div>
+            <div className="ring-1 ring-gray-50/10 rounded-md p-6 max-w-sm text-xs  md:text-sm bg-slate-50/5">Vercel/design</div>
+            <div className="ring-1 ring-gray-50/10 rounded-md p-6 max-w-sm text-xs md:text-sm bg-slate-50/5">Vercel/eng</div>
+            <div className="ring-1 ring-gray-50/10 rounded-md p-6 max-w-sm text-xs  md:text-sm bg-slate-50/5">Vercel/marketing</div>
          </div>
         </div>
        </div>
