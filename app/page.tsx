@@ -3,7 +3,7 @@ import { NavVercel } from "./components/NavVercel";
 import { IoTriangleSharp} from "react-icons/io5";
 import { GitMergeIcon ,Globe02Icon,NotificationBubbleIcon,ChartLineData01Icon,ReplayIcon,Book01Icon,OfficeIcon,Shield02Icon,Menu03Icon, CircleArrowUp02Icon} from "hugeicons-react";
 import { FaCircleNotch,FaArrowsRotate,FaXTwitter} from "react-icons/fa6";
-import { Terminal, TerminalIcon } from "lucide-react";
+import { ArrowUp, Terminal, TerminalIcon } from "lucide-react";
 import { Charts } from "./components/charts";
 import { SiGithub,SiLinkedin,SiYoutube  } from "react-icons/si";
 
@@ -67,7 +67,12 @@ export default function Home() {
         <h1 className="text-stone-400 text-2xl font-medium">Deploy from Git or from your Cli</h1>
         </div>
         <div className="relative">
-        <div className="relative border-1  bg-black p-4 max-w-xs rounded-md hidden  md:flex font-medium border-gray-50/10">
+        <div className="relative border-1  bg-black px-3 pb-3 max-w-xs rounded-md hidden  md:flex md:flex-col font-medium border-gray-50/10">
+        <div className="space-x-1  ">
+            <button className="p-1 rounded-full bg-gray-800"></button>
+            <button className="p-1 rounded-full bg-gray-800"></button>
+            <button className="p-1 rounded-full bg-gray-800"></button>
+            </div>
          <ul className="text-left text-xs font-mono text-stone-300 space-y-1 "><li className="flex items-center"> <span className="pr-2"><IoTriangleSharp/></span>git push -u origin main </li>
          <li>  Enumerating objects: 7, done.</li>
          <li> Counting objects: 100% (7/7), done.</li>
@@ -77,7 +82,7 @@ export default function Home() {
          </ul>
         
           </div>
-          <div className=" relative md:absolute md:left-30 md:-bottom-32 bg-black p-2 ring-1 ring-gray-50/10  rounded-md max-w-xs ">
+          <div className=" relative md:absolute md:left-30 md:-bottom-32 bg-black px-3 pb-3 ring-1 ring-gray-50/10  rounded-md max-w-xs ">
           <div>
             <div className="space-x-1">
             <button className="p-1 rounded-full bg-red-500"></button>
@@ -106,16 +111,34 @@ export default function Home() {
         <div className="ring-1 ring-gray-50/10 rounded-md p-3 text-sm  w-1/2">
       <h1>Swapped out the <span className="text-stone-400">button</span> for some variants we needed</h1>
         </div>
-        <div className="ring-1 ring-gray-50/10 rounded-md p-3 text-sm flex ml-36 w-1/2">
+       <div>
+        
+       </div>
+        <div className="ring-1 ring-gray-50/10 rounded-md p-3 text-sm flex ml-48 w-1/2">
       <h1>How about this instead?</h1>
         </div>
-        <div className="ring-1 ring-gray-50/10 rounded-md p-3 text-sm  w-1/2">
-      <h1>I like this, Does this work with brand tweaks <span className="font-semibold">@mamuso</span></h1>
+        <div>
+        <div className="ring-1 absolute ring-gray-50/10 rounded-md -mt-10 ml-28 p-1 text-xs   text-black bg-blue-500 w-14 ">
+      Pranathi
         </div>
-        <div className="ring-1 ring-gray-50/10 rounded-md p-3 text-sm flex space-x-4  ml-36 items-center w-1/2">
-      <h1>This looks great </h1>
-      <CircleArrowUp02Icon className="size-5 text-white"/>
+        <div className="ring-1 ring-gray-50/10 rounded-md p-3 text-sm w-1/2">
+      <h1>I like this, Does this work with brand tweaks <span className="font-semibold">@mamuso?</span></h1>
         </div>
+        </div>
+        <div>
+        <div className="ring-1 absolute ring-gray-50/10 rounded-md -mt-10 ml-56 p-1 text-xs text-black bg-red-500 w-12 ">
+      Rauno
+        </div>
+        <div className="relative ring-1 ring-gray-50/10 rounded-md p-3 text-sm flex ml-48 space-x-1 items-center w-1/2">
+      <h1>This looks great !</h1>
+     <div className="animate-pulse">|</div>
+      <button className="p-1 bg-white rounded-full">
+      <ArrowUp className="size-5 text-black"/>
+      </button>
+      
+        </div>
+        </div>
+       
         </div>
         </div>
        {/* Container  3 */}
