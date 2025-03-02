@@ -7,7 +7,6 @@
 @import "tailwindcss/preflight.css" layer(base);
 @import "tailwindcss/utilities.css" layer(utilities);
 
-
 /* Apply Geist fonts globally */
 :root {
   --font-geist-sans: var(--geist-sans);
