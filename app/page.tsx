@@ -114,7 +114,7 @@ export default function Home() {
        <div>
         
        </div>
-        <div className="ring-1 ring-gray-50/10 rounded-md p-3 bg-stone-950 text-sm flex ml-56 w-48">
+        <div className="ring-1 ring-gray-50/10 rounded-md p-3 bg-stone-950 text-sm flex ml-52 w-48">
       <h1>How about this instead?</h1>
         </div>
         <div>
@@ -129,7 +129,7 @@ export default function Home() {
         <div className="ring-1 absolute ring-gray-50/10 rounded-md -mt-10 ml-60 p-1 text-xs text-black bg-red-500 w-12 ">
       Rauno
         </div>
-        <div className="relative ring-1 ring-gray-50/10 rounded-md p-3 bg-stone-950 text-sm flex ml-58 space-x-1 items-center w-44">
+        <div className="relative ring-1 ring-gray-50/10 rounded-md p-3 bg-stone-950 text-sm flex ml-56 space-x-1 items-center w-44">
       <h1>This looks great !</h1>
      <div className="animate-pulse">|</div>
       <button className="p-1 bg-white rounded-full">
