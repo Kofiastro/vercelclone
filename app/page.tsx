@@ -108,34 +108,33 @@ export default function Home() {
         <h1 className="text-2xl font-medium ">Every deploy is remarkable.<span className="text-stone-400">Chat with your team on real, production-grade UI, not just designs</span>.</h1> 
         </div>
         {/* Design */}
-        <div className="ring-1 ring-gray-50/10 rounded-md p-3 text-sm  w-1/2">
+        <div className="ring-1 ring-gray-50/10 rounded-md p-3  bg-stone-950 text-sm  w-1/2">
       <h1>Swapped out the <span className="text-stone-400">button</span> for some variants we needed</h1>
         </div>
        <div>
         
        </div>
-        <div className="ring-1 ring-gray-50/10 rounded-md p-3 text-sm flex ml-48 w-1/2">
+        <div className="ring-1 ring-gray-50/10 rounded-md p-3 bg-stone-950 text-sm flex ml-56 w-48">
       <h1>How about this instead?</h1>
         </div>
         <div>
-        <div className="ring-1 absolute ring-gray-50/10 rounded-md -mt-10 ml-28 p-1 text-xs   text-black bg-blue-500 w-14 ">
+        <div className="ring-1 absolute ring-gray-50/10 rounded-md -mt-10 ml-36 p-1 text-xs text-black bg-blue-500 w-14 ">
       Pranathi
         </div>
-        <div className="ring-1 ring-gray-50/10 rounded-md p-3 text-sm w-1/2">
+        <div className="ring-1 ring-gray-50/10 rounded-md p-3 bg-stone-950 text-sm w-56">
       <h1>I like this, Does this work with brand tweaks <span className="font-semibold">@mamuso?</span></h1>
         </div>
         </div>
         <div>
-        <div className="ring-1 absolute ring-gray-50/10 rounded-md -mt-10 ml-56 p-1 text-xs text-black bg-red-500 w-12 ">
+        <div className="ring-1 absolute ring-gray-50/10 rounded-md -mt-10 ml-60 p-1 text-xs text-black bg-red-500 w-12 ">
       Rauno
         </div>
-        <div className="relative ring-1 ring-gray-50/10 rounded-md p-3 text-sm flex ml-48 space-x-1 items-center w-1/2">
+        <div className="relative ring-1 ring-gray-50/10 rounded-md p-3 bg-stone-950 text-sm flex ml-58 space-x-1 items-center w-44">
       <h1>This looks great !</h1>
      <div className="animate-pulse">|</div>
       <button className="p-1 bg-white rounded-full">
       <ArrowUp className="size-5 text-black"/>
       </button>
-      
         </div>
         </div>
        
