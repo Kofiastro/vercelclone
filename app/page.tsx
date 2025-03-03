@@ -36,17 +36,30 @@ export default function Home() {
         </div>
     </nav>
     {/* Homepage */}
-    <main className="mt-24 mx-5 lg:mx-65">
-      <div className=" bg-linear-[190deg,black_50%,orange_70%,cyan_80%,teal] flex flex-col text-center items-center justify-center px-5 md:px-24 py-30 md:py-48 border-1 border-slate-50/10 space-y-7 ">
+    <main className="mt-44 mx-5 lg:mx-65">
+      
+      <div className="relative inset-0 -z-40   bg-[linear-gradient(to_right,#1c1917_0.5px,transparent_0.5px),linear-gradient(to_bottom,#1c1917_0.5px,transparent_1px)] bg-[size:6rem_4rem]  border-1 border-slate-50/10 px-5 md:px-24 py-30 md:py-48  ">
+      {/* Plus Icon */}
+      <svg width="30" height="30" viewBox="0 0 40 40" className="absolute  hidden lg:flex -mt-[205px] -ml-[110px]" >
+<rect width="1.331719" height="39.2062" transform="matrix(-1 0 0 1 20.2565 0)" fill="#D9D9D9"/>
+<rect width="1.331719" height="39.2062" transform="matrix(0 -1 -1 0 39.8922 18.7044)" fill="#D9D9D9"/>
+</svg>
+            <div className=" bg-stone-950 space-y-7 flex flex-col text-center items-center justify-center ">
             <h1 className="text-3xl lg:text-5xl font-semibold">Your complete platform for the web.</h1>
         <p className="text-base lg:text-2xl text-stone-400 font-normal max-w-xl">Vercel provides the developer tools and cloud infrastructure to build, scale, and secure a faster, more personalized web.</p>
         <div className="*:text-xs *:lg:text-base *:rounded-full flex space-x-8 *:font-medium">
           <button className="bg-white px-3 py-2 lg:px-4 lg:py-3 text-black flex hover:bg-gray-300 items-center"><span className="px-2"><IoTriangleSharp/></span>Start Deploying</button>
           <button className="bg-black text-white border-1 border-1-stone-50/10 hover:bg-stone-900 px-5 py-3 lg:px-10 lg:py-3 ">Get a demo</button>
+            </div>
         </div>
       </div>
       {/* container  */}
       <div className=" border-1 border-slate-50/10 p-20 flex items-center  justify-center">
+      {/* Plus Icon */}
+      <svg width="30" height="30" viewBox="0 0 40 40" className="absolute  hidden -mt-[230px] lg:flex ml-[990px]" >
+<rect width="1.331719" height="39.2062" transform="matrix(-1 0 0 1 20.2565 0)" fill="#D9D9D9"/>
+<rect width="1.331719" height="39.2062" transform="matrix(0 -1 -1 0 39.8922 18.7044)" fill="#D9D9D9"/>
+</svg>
       <div className="max-w-2xl text-center" >
       <h1 className="text-xl lg:text-3xl font-semibold items-center inline-block ">Develop with your favorite tools <span className="inline-block align-middle size-6"><Terminal/>
       </span>
@@ -142,6 +155,11 @@ export default function Home() {
         </div>
        {/* Container  3 */}
       <div className=" border-1 border-slate-50/10  border-t-0 border-b-0  p-10">
+      {/* Plus Icon */}
+      <svg width="30" height="30" viewBox="0 0 40 40" className="absolute  hidden -mt-[55px] lg:flex ml-[935px]" >
+<rect width="1.331719" height="39.2062" transform="matrix(-1 0 0 1 20.2565 0)" fill="#D9D9D9"/>
+<rect width="1.331719" height="39.2062" transform="matrix(0 -1 -1 0 39.8922 18.7044)" fill="#D9D9D9"/>
+</svg>
       {/* First Column */}
         <div className="flex flex-col space-y-3 ">
         <h1 className="text-stone-400 text-lg items-center flex"><span className="pr-2"><ChartLineData01Icon className="size-5"/></span>Front-end Observability</h1>
@@ -151,6 +169,11 @@ export default function Home() {
         </div>
         <Charts/>
         </div>
+        {/* Plus Icon */}
+      <svg width="30" height="30" viewBox="0 0 40 40" className="absolute  hidden  lg:flex mt-[28px] -ml-[55px]" >
+<rect width="1.331719" height="39.2062" transform="matrix(-1 0 0 1 20.2565 0)" fill="#D9D9D9"/>
+<rect width="1.331719" height="39.2062" transform="matrix(0 -1 -1 0 39.8922 18.7044)" fill="#D9D9D9"/>
+</svg>
           </div>
         {/* Container 4 */}
         <div className="grid grid-row-1 md:grid-cols-2 select-none md:divide-x md:divide-y-0 divide-y divide-slate-50/10 border-1 border-b-0 border-slate-50/10 ">
