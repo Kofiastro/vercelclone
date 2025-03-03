@@ -40,7 +40,7 @@ export default function Home() {
       
       <div className="relative inset-0 -z-40   bg-[linear-gradient(to_right,#1c1917_0.5px,transparent_0.5px),linear-gradient(to_bottom,#1c1917_0.5px,transparent_1px)] bg-[size:6rem_4rem]  border-1 border-slate-50/10 px-5 md:px-24 py-30 md:py-48  ">
       {/* Plus Icon */}
-      <svg width="30" height="30" viewBox="0 0 40 40" className="absolute  hidden lg:flex -mt-[205px] -ml-[110px]" >
+      <svg width="30" height="30" viewBox="0 0 40 40" className="absolute  hidden lg:flex lg:-mt-[205px] lg:-ml-[110px]" >
 <rect width="1.331719" height="39.2062" transform="matrix(-1 0 0 1 20.2565 0)" fill="#D9D9D9"/>
 <rect width="1.331719" height="39.2062" transform="matrix(0 -1 -1 0 39.8922 18.7044)" fill="#D9D9D9"/>
 </svg>
@@ -56,7 +56,7 @@ export default function Home() {
       {/* container  */}
       <div className=" border-1 border-slate-50/10 p-20 flex items-center  justify-center">
       {/* Plus Icon */}
-      <svg width="30" height="30" viewBox="0 0 40 40" className="absolute  hidden -mt-[230px] lg:flex ml-[990px]" >
+      <svg width="30" height="30" viewBox="0 0 40 40" className="absolute  hidden lg:-mt-[230px] lg:flex lg:ml-[990px]" >
 <rect width="1.331719" height="39.2062" transform="matrix(-1 0 0 1 20.2565 0)" fill="#D9D9D9"/>
 <rect width="1.331719" height="39.2062" transform="matrix(0 -1 -1 0 39.8922 18.7044)" fill="#D9D9D9"/>
 </svg>
@@ -127,11 +127,11 @@ export default function Home() {
        <div>
         
        </div>
-        <div className="ring-1 ring-gray-50/10 rounded-md p-3 bg-stone-950 text-sm flex ml-52 w-48">
+        <div className="ring-1 ring-gray-50/10 rounded-md p-3 bg-stone-950 text-sm flex lg:ml-52 w-48">
       <h1>How about this instead?</h1>
         </div>
         <div>
-        <div className="ring-1 absolute ring-gray-50/10 rounded-md -mt-10 ml-36 p-1 text-xs text-black bg-blue-500 w-14 ">
+        <div className="ring-1 absolute ring-gray-50/10 rounded-md -mt-10 lg:ml-36 ml-52 p-1 text-xs text-black bg-blue-500 w-14 ">
       Pranathi
         </div>
         <div className="ring-1 ring-gray-50/10 rounded-md p-3 bg-stone-950 text-sm w-56">
@@ -142,7 +142,7 @@ export default function Home() {
         <div className="ring-1 absolute ring-gray-50/10 rounded-md -mt-10 ml-60 p-1 text-xs text-black bg-red-500 w-12 ">
       Rauno
         </div>
-        <div className="relative ring-1 ring-gray-50/10 rounded-md p-3 bg-stone-950 text-sm flex ml-56 space-x-1 items-center w-44">
+        <div className="relative ring-1 ring-gray-50/10 rounded-md p-3 bg-stone-950 text-sm flex lg:ml-56 space-x-1 items-center w-44">
       <h1>This looks great !</h1>
      <div className="animate-pulse">|</div>
       <button className="p-1 bg-white rounded-full">
@@ -156,7 +156,7 @@ export default function Home() {
        {/* Container  3 */}
       <div className=" border-1 border-slate-50/10  border-t-0 border-b-0  p-10">
       {/* Plus Icon */}
-      <svg width="30" height="30" viewBox="0 0 40 40" className="absolute  hidden -mt-[55px] lg:flex ml-[935px]" >
+      <svg width="30" height="30" viewBox="0 0 40 40" className="absolute  hidden lg:-mt-[55px] lg:flex lg:ml-[935px]" >
 <rect width="1.331719" height="39.2062" transform="matrix(-1 0 0 1 20.2565 0)" fill="#D9D9D9"/>
 <rect width="1.331719" height="39.2062" transform="matrix(0 -1 -1 0 39.8922 18.7044)" fill="#D9D9D9"/>
 </svg>
@@ -170,7 +170,7 @@ export default function Home() {
         <Charts/>
         </div>
         {/* Plus Icon */}
-      <svg width="30" height="30" viewBox="0 0 40 40" className="absolute  hidden  lg:flex mt-[28px] -ml-[55px]" >
+      <svg width="30" height="30" viewBox="0 0 40 40" className="absolute  hidden  lg:flex lg:mt-[28px] lg:-ml-[55px]" >
 <rect width="1.331719" height="39.2062" transform="matrix(-1 0 0 1 20.2565 0)" fill="#D9D9D9"/>
 <rect width="1.331719" height="39.2062" transform="matrix(0 -1 -1 0 39.8922 18.7044)" fill="#D9D9D9"/>
 </svg>
